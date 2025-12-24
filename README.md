@@ -68,3 +68,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# NetFlix GPT
+
+-Create React App
+-Configure TailwindCSS
+-Header
+-Routing of App
+-Login Form
+-Sign Up Form
+-Form Validation
+-useRef Hook
+-Firebase Setup
+-Deploying our app to production
+-Create a SignUp user Account
+-Implement Signin user Api 
+-Created Redux Store with userSlice
+-Implementd Sign out
+-Update Profile
+-Fetch from TMDB Movies
+-BugFix: Sign Up user displayName and profile picture update
+-BugFix : if the user is not logged in Redirect / browse to Loign Page and vice-versa.
+
+# Features
+-Login & Sign up
+   -Sign In / Sign up Form
+   -redirect to Browse Page 
+-Browse (after authentication)
+ -Header
+ -Main Movie
+   -Tailer in Backeground
+   -Title & Description
+   -MovieSuggestions
+     -MovieLists * N
+
+- NetflixGPT
+  -Search Bar
+  -Movie Suggestions     
