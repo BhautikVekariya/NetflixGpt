@@ -50,7 +50,7 @@ const Header = () => {
                 <img
                     className="w-[50px] h-[50px] mt-3"
                     alt="usericon"
-                    src={user?.photoURL||"https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg"}
+                    src={user?.photoURL || "https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg"}
                 />
                 <button
                     onClick={handleSignOut}

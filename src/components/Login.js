@@ -6,10 +6,12 @@ import {
     signInWithEmailAndPassword,
     updateProfile,
 } from "firebase/auth";
+
 import { auth } from "../utils/Firebase";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
 import { USER_AVATAR } from "../utils/Constants";
+
 const Login = () => {
     const [isSignForm, setIsSignForm] = useState(true);
     const [errorMessage, setErrorMessage] = useState(null);
@@ -43,7 +45,7 @@ const Login = () => {
                     const user = userCredential.user;
                     return updateProfile(user, {
                         displayName: fullName.current.value,
-                        photoURL:USER_AVATAR,
+                        photoURL: USER_AVATAR,
                     });
                 })
                 .then(() => {
