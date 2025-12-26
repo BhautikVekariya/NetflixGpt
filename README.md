@@ -101,6 +101,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 -Update Store with Trailer video Data
 -Embedded the youtube video and it making auto and mute
 -Tailwind Classes to make Main Container look awesome
+-Build Secondary Component
+-Build Movie List
+-Build Moive Card
+-TMDB Image CDN URL
+-Made the Browse page amazing with Tailwind CSS
+-usePopularMoives Custom hook
+-useTrendingMoives Custom hook
+-useUpcomingMovies Custom hook
  
 # Features
 -Login & Sign up
