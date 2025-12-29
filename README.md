@@ -109,6 +109,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 -usePopularMoives Custom hook
 -useTrendingMoives Custom hook
 -useUpcomingMovies Custom hook
+-GPT Search Page
+-GPT Search Bar
+-(BONUS) Multi-language Feature in our App
  
 # Features
 -Login & Sign up
